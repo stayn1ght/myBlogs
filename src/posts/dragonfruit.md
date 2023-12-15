@@ -1,20 +1,7 @@
 ---
-icon: pen-to-square
-date: 2022-01-10
-category:
-  - Dragon Fruit
-  - Fruit
-tag:
-  - red
-  - big
+title: 测试页
+layout: myHomePage
+heroFullScreen: true
+heroText: 随蝴蝶一起消散吧，旧日的幻影！
 ---
 
-# Dragon Fruit
-
-## Heading 2
-
-Here is the content.
-
-### Heading 3
-
-Here is the content.
