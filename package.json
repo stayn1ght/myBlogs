@@ -17,6 +17,7 @@
     "vuepress-theme-hope": "2.0.0-beta.251"
   },
   "dependencies": {
-    "@vuepress/utils": "2.0.0-rc.0"
+    "@vuepress/utils": "2.0.0-rc.0",
+    "@vueuse/core": "^10.7.0"
   }
 }
