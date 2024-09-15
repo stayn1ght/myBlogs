@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as n,a as e,b as o}from"./app-fda9dad6.js";const s={};function c(l,r){return a(),n("div",null,r[0]||(r[0]=[e("h1",{id:"介绍页",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#介绍页","aria-hidden":"true"},"#"),o(" 介绍页")],-1),e("p",null,"将你的个人介绍和档案放置在此处。",-1)]))}const i=t(s,[["render",c],["__file","intro.html.vue"]]);export{i as default};
