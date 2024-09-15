@@ -1,5 +1,5 @@
 import { defineClientConfig } from '@vuepress/client'
-import Layout from "./layouts/Layout.vue";
+// import Layout from "./layouts/Layout.vue";
 import myHomePage from './layouts/myHomePage.vue';
 
 export default defineClientConfig({

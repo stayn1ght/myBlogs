@@ -10,8 +10,8 @@ export default defineUserConfig({
   base: "/myBlogs/",
 
   lang: "zh-CN",
-  title: "世界皆舞台",
-  description: "StayNight 的个人博客",
+  title: "Ed è subito sera",
+  description: "StayNight 的博客",
 
   theme,
 

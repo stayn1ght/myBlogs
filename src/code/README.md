@@ -7,6 +7,10 @@ category:
 ---
 ## 内容目录
 
+### 统计学方法
+
+- [Matching for covariate balance](statistics/matchIt.md)
+
 ### 数据可视化
 - [ECharts](echarts/)
 

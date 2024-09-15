@@ -134,7 +134,6 @@ export default hopeTheme(
                 // install @vue/repl before enabling it
                 // vuePlayground: true,
             },
-
             // uncomment these if you want a PWA
             // pwa: {
             //   favicon: "/favicon.ico",

@@ -1,4 +1,5 @@
 import { sidebar } from "vuepress-theme-hope";
+// 从外部引入代码块
 import  code  from "./sidebar/code";
 
 export default sidebar({
@@ -19,6 +20,12 @@ export default sidebar({
             text: "代码",
             icon: "code",
             children: [
+                {
+                    text: "统计学方法",
+                    icon: "laptop-code",
+                    // prefix: "demo/",
+                    link: "statistics/",   
+                },
                 {
                     text: "ECharts 数据可视化",
                     icon: "laptop-code",

@@ -18,14 +18,32 @@ import BlogWrapper from "@theme-hope/modules/blog/components/BlogWrapper";
 import type { ThemeBlogHomePageFrontmatter } from "vuepress-theme-hope/client";
 
 import "vuepress-theme-hope/modules/blog/styles/home.scss";
+import live2d from 'vue-live2d'
 
 const articles = useArticles();
 const frontmatter = usePageFrontmatter<ThemeBlogHomePageFrontmatter>();
 const projects = computed(() => frontmatter.value.projects ?? []);
+const style = {
+  position: 'fixed',
+  // right: '0',
+  bottom: '0',
+  zIndex: 99999,
+}
+const direction = 'right'
+const width = 500
+const height = 50
+const size = 300
+const tips = {
+        mouseover: [{
+          selector: '.vue-live2d',
+          // texts: ['这样可以修改默认语句']
+        }]
+      }
 </script>
 
 <template>
   <BlogWrapper>
+    
     <div class="vp-page vp-blog">
       <BlogHero>
         <template #heroInfo="theHeroInfo">
@@ -35,6 +53,7 @@ const projects = computed(() => frontmatter.value.projects ?? []);
           <BingHeroBackground />
         </template> -->
         <template #heroBg>
+          <!-- 加入自定义背景 -->
           <bgImage />
         </template>
       </BlogHero>
@@ -54,8 +73,17 @@ const projects = computed(() => frontmatter.value.projects ?? []);
       <DropTransition appear :delay="0.28">
         <MarkdownContent />
       </DropTransition>
+      <live2d
+      :style="style"
+      :model="['Potion-Maker/Pio', 'school-2017-costume-yellow']"
+      :direction="direction"
+      :size="size"
+      :tips="tips"
+    ></live2d>
     </div>
+    
   </BlogWrapper>
+  
 </template>
 
 <style lang="scss">
